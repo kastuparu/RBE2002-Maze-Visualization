@@ -66,6 +66,7 @@ Finished receiving coordinates
 
 ```
 ![maze representation output](examples/maze1.png)
+
 4. Another example:
 ```shell
 (venv) $ python maze-visualization.py
