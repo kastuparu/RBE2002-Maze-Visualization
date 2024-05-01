@@ -111,3 +111,40 @@ Finished receiving coordinates
 
 ```
 ![maze representation output 2](examples/maze2.png)
+
+5. Another example:
+```shell
+(venv) $ python maze-visualization.py
+Connected to robomqtt.cs.wpi.edu
+Received 'team4/robot-d/(i, j):(0, 0)'
+Received 'team4/robot-d/(i, j):(0, 1)'
+Received 'team4/robot-d/(i, j):(0, 2)'
+Received 'team4/robot-d/(i, j):(0, 3)'
+Received 'team4/robot-d/(i, j):(0, 4)'
+Received 'team4/robot-d/(i, j):(0, 5)'
+Received 'team4/robot-d/(i, j):(0, 4)'
+Received 'team4/robot-d/(i, j):(0, 3)'
+Received 'team4/robot-d/(i, j):(0, 2)'
+Received 'team4/robot-d/(i, j):(1, 2)'
+Received 'team4/robot-d/(i, j):(1, 3)'
+Received 'team4/robot-d/(i, j):(1, 4)'
+Received 'team4/robot-d/(i, j):(1, 5)'
+Received 'team4/robot-d/(i, j):(2, 5)'
+Received 'team4/robot-d/(i, j):(2, 4)'
+Received 'team4/robot-d/(i, j):(2, 5)'
+Received 'team4/robot-d/(i, j):(1, 5)'
+Received 'team4/robot-d/(i, j):(1, 4)'
+Received 'team4/robot-d/(i, j):(1, 3)'
+Received 'team4/robot-d/(i, j):(1, 2)'
+Received 'team4/robot-d/(i, j):(0, 2)'
+Received 'team4/robot-d/(i, j):(0, 1)'
+Received 'team4/robot-d/(i, j):(0, 0)'
+Received 'team4/robot-d/(i, j):(1, 0)'
+Received 'team4/robot-d/(i, j):(2, 0)'
+Received 'team4/robot-d/(i, j):(1, 0)'
+Received 'team4/robot-d/(i, j):(0, 0)'
+Received 'team4/robot-d/complete:1'
+Finished receiving coordinates
+
+```
+![maze representation output 3](examples/maze3.png)
